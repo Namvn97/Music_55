@@ -11,7 +11,7 @@ public class FlashScreenActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        startActivity(new Intent(FlashScreenActivity.this, HomeActivity.class));
+        startActivity(new Intent(FlashScreenActivity.this, MainActivity.class));
         finish();
     }
 }
